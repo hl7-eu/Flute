@@ -1,0 +1,12 @@
+{
+  "name": "my.fhir.template",
+  "version": "1.0.0",
+  "type": "fhir.template",
+  "license": "CC0-1.0",
+  "description": "Local template extension for my own IG",
+  "author": "http://hl7.org/fhir",
+    "base":  "fhir.base.template",
+  "dependencies": {
+    "fhir.base.template": "0.6.0"
+  }
+}
