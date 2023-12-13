@@ -3,10 +3,10 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: flute.clinicalVariables
+id: flute.studyVariables
 canonical: https://flute.com
-name: clinicalVariables
-title: Requirements Federated Learning and mUlti-party computation Techniques for prostatE cancer
+name: StudyVariables
+title: FLUTE Cross-border Prostate Cancer Data Standard Guide
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
 version: 0.1.0
@@ -77,6 +77,7 @@ publisher:
 menu:
   Home: index.html
   Artifacts: artifacts.html
+  Logical Model: logicalModel.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
@@ -145,19 +146,36 @@ menu:
 # is specified by id or name, SUSHI will replace it with the correct
 # URL when generating the IG JSON.
 #
-# groups:
-#   GroupA:
-#     name: Group A
-#     description: The Alpha Group
-#     resources:
-#     - StructureDefinition/animal-patient
-#     - StructureDefinition/arm-procedure
-#   GroupB:
-#     name: Group B
-#     description: The Beta Group
-#     resources:
-#     - StructureDefinition/bark-control
-#     - StructureDefinition/bee-sting
+groups:
+  LogicalModel:
+    name:  Flute Project Prostate Cancer Models
+    description: Logical models representing the prostate cancer study variables
+    resources:
+      - StructureDefinition/StudyVariables
+     
+
+  LogicalModel2FHIR:
+    name:  Flute Project Prostate Cancer study variables Model Mappings
+    description: Model Mapping from the StudyVariables Logical models and this guide
+    resources:
+      - ConceptMap/StudyVariables2FHIR
+     
+  patientImplementation:
+    name:  HL7 FHIR Profile implementing the Patient model for Prostate Cancer Study
+    description: HL7 FHIR Profile implementing the Patient model with specific prostate cancer considerations
+    resources:
+      - StructureDefinition/DigitalRectalExamination
+      - StructureDefinition/PIRADSScore
+      - StructureDefinition/ProstateSpecificAntigen
+      - StructureDefinition/ProstateVolume
+      - StructureDefinition/BiopsyProcedure
+      
+  FamilyHistoryImplementation:
+    name:  HL7 FHIR Profile implementing the Family History model for Prostate Cancer
+    description: HL7 FHIR Profile implementing the Family History model with focus on prostate cancer
+    resources:
+      - StructureDefinition/PcaFmilyHistory
+
 #
 #
 # The ImplementationGuide resource defines several other properties
