@@ -148,20 +148,20 @@ menu:
 #
 groups:
   LogicalModel:
-    name:  Flute Project Prostate Cancer Models
+    name: Flute Project Prostate Cancer Models
     description: Logical models representing the prostate cancer study variables
     resources:
       - StructureDefinition/StudyVariables
-     
 
-  LogicalModel2FHIR:
-    name:  Flute Project Prostate Cancer study variables Model Mappings
+  LogicalModelMapping:
+    name: Flute Project Prostate Cancer study variables Model Mappings
     description: Model Mapping from the StudyVariables Logical models and this guide
     resources:
       - ConceptMap/StudyVariables2FHIR
-     
+      - ConceptMap/Requirements2StudyVariables
+
   patientImplementation:
-    name:  HL7 FHIR Profile implementing the Patient model for Prostate Cancer Study
+    name: HL7 FHIR Profile implementing the Patient model for Prostate Cancer Study
     description: HL7 FHIR Profile implementing the Patient model with specific prostate cancer considerations
     resources:
       - StructureDefinition/DigitalRectalExamination
@@ -169,9 +169,9 @@ groups:
       - StructureDefinition/ProstateSpecificAntigen
       - StructureDefinition/ProstateVolume
       - StructureDefinition/BiopsyProcedure
-      
+
   FamilyHistoryImplementation:
-    name:  HL7 FHIR Profile implementing the Family History model for Prostate Cancer
+    name: HL7 FHIR Profile implementing the Family History model for Prostate Cancer
     description: HL7 FHIR Profile implementing the Family History model with focus on prostate cancer
     resources:
       - StructureDefinition/PcaFmilyHistory
