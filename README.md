@@ -1,1 +1,2 @@
-# studyVariables-flute
+# FLUTE Project
+studyVariables-flute
