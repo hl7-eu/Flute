@@ -1,8 +1,8 @@
 Instance: Questionnaire-StudyVariable-null-response
 InstanceOf: QuestionnaireResponse
 Usage: #example
-* extension.url = "http://hl7.org/fhir/us/davinci-dtr/StructureDefinition/dtr-questionnaireresponse-questionnaire"
-* extension.valueReference = Reference(Questionnaire-StudyVariable)
+/* * extension.url = "http://hl7.org/fhir/us/davinci-dtr/StructureDefinition/dtr-questionnaireresponse-questionnaire"
+* extension.valueReference = Reference(Questionnaire-StudyVariable) */
 * questionnaire = Canonical (Questionnaire-StudyVariable)
 * status = #in-progress
 * subject = Reference(StructureDefinition/Patient)

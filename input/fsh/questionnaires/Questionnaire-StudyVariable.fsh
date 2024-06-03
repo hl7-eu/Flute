@@ -68,7 +68,7 @@ Usage: #example
 * item[=].item[=].type = #choice
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
-* item[=].item[=].answerValueSet = "http://hl7.org/fhir/history-status"
+* item[=].item[=].answerValueSet = "http://hl7.org/fhir/ValueSet/history-status"
 * item[=].item[+].linkId = "family-patient"
 * item[=].item[=].definition = "http://fhir.org#FamilyMemberHistory.patient"
 * item[=].item[=].code = $sct#399068003
@@ -102,7 +102,7 @@ Usage: #example
 * item[=].item[=].type = #choice
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
-* item[=].item[=].answerValueSet = "http://hl7.org/fhir/observation-status"
+* item[=].item[=].answerValueSet = "http://hl7.org/fhir/ValueSet/observation-status"
 * item[+].linkId = "observation-dre-group"
 * item[=].definition = "http://fhir.org#Observation"
 * item[=].text = "Observation group"
@@ -130,7 +130,7 @@ Usage: #example
 * item[=].item[=].type = #choice
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
-* item[=].item[=].answerValueSet = "http://hl7.org/fhir/observation-status"
+* item[=].item[=].answerValueSet = "http://hl7.org/fhir/ValueSet/observation-status"
 * item[+].linkId = "observation-prostate-volume-group"
 * item[=].definition = "http://fhir.org#Observation"
 * item[=].text = "Observation group"
@@ -157,7 +157,7 @@ Usage: #example
 * item[=].item[=].type = #choice
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
-* item[=].item[=].answerValueSet = "http://hl7.org/fhir/observation-status"
+* item[=].item[=].answerValueSet = "http://hl7.org/fhir/ValueSet/observation-status"
 * item[=].item[+].linkId = "prostate-bodySite"
 * item[=].item[=].definition = "http://fhir.org#Observation.bodySite"
 * item[=].item[=].code = $sct#41216001
@@ -196,4 +196,4 @@ Usage: #example
 * item[=].item[=].type = #choice
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
-* item[=].item[=].answerValueSet = "http://hl7.org/fhir/observation-status"
+* item[=].item[=].answerValueSet = "http://hl7.org/fhir/ValueSet/observation-status"

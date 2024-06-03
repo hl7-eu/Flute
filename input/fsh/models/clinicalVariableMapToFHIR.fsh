@@ -20,13 +20,13 @@ Usage: #definition
 * description = "Study variables Model to this guide Map"
 /* * jurisdiction = $m49.htm#150 "Europe" */
 * purpose = "It shows how the Study variables model is mapped into this guide"
-* sourceUri = "http://hl7.eu/fhir/ig/flute/StructureDefinition/StudyVariables"
-* targetUri = "http://hl7.org/fhir/r4"
-* group[+].source = "https://flute.com/StructureDefinition/StudyVariables"
-* group[=].target = "https://flute.com/StructureDefinition/BiopsyProcedure"
-* group[=].element[0].code = #StudyVariables.patient
+* sourceUri = Canonical(StudyVariables)
+* targetUri = "http://hl7.org/fhir"
+* group[+].source = Canonical(StudyVariables)
+* group[=].target = Canonical(TypeOfBiopsy)
+* group[=].element[0].code = #StudyVariables.patientIdentifier
 * group[=].element[=].display = "Patient"
-* group[=].element[=].target.code = #Procedure.subject
+* group[=].element[=].target.code = #Procedure.subject.identifier
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #StudyVariables.typeOfBiopsy
 * group[=].element[=].display = "Type of biopsy"
@@ -39,36 +39,41 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[=].target.comment = "to be checked if an onSetdatTime or period is needed"
 
-* group[+].source = "https://flute.com/StructureDefinition/StudyVariables"
-* group[=].target = "https://flute.com/StructureDefinition/PcaFmilyHistory"
+* group[+].source = Canonical(StudyVariables)
+* group[=].target = Canonical(CancerProstateFamilyHistory)
+
 * group[=].element[0].code = #StudyVariables.PCaFamilyHistory
 * group[=].element[=].display = "PCa family history"
 * group[=].element[=].target.code = #FamilyMemberHistory.condition.code
 * group[=].element[=].target.equivalence = #relatedto
 
-* group[+].source = "https://flute.com/StructureDefinition/StudyVariables"
-* group[=].target = "https://flute.com/StructureDefinition/ProstateSpecificAntigen"
+* group[+].source = Canonical(StudyVariables)
+* group[=].target = Canonical(ProstateSpecificAntigen)
+
 * group[=].element[0].code = #StudyVariables.PSA
 * group[=].element[=].display = "PCa family history"
 * group[=].element[=].target.code = #Observation.valueQuantity
 * group[=].element[=].target.equivalence = #equivalent
 
-* group[+].source = "https://flute.com/StructureDefinition/StudyVariables"
-* group[=].target = "https://flute.com/StructureDefinition/DigitalRectalExamination"
+* group[+].source = Canonical(StudyVariables)
+* group[=].target = Canonical(DigitalRectalExamination)
+
 * group[=].element[0].code = #StudyVariables.DRE
 * group[=].element[=].display = "PCa family history"
 * group[=].element[=].target.code = #Observation.valueQuantity
 * group[=].element[=].target.equivalence = #equivalent
 
-* group[+].source = "https://flute.com/StructureDefinition/StudyVariables"
-* group[=].target = "https://flute.com/StructureDefinition/ProstateVolume"
+* group[+].source = Canonical(StudyVariables)
+* group[=].target = Canonical(ProstateVolume)
+
 * group[=].element[0].code = #StudyVariables.prostateVolume
 * group[=].element[=].display = "PCa family history"
 * group[=].element[=].target.code = #Observation.valueQuantity
 * group[=].element[=].target.equivalence = #equivalent
 
-* group[+].source = "https://flute.com/StructureDefinition/StudyVariables"
-* group[=].target = "https://flute.com/StructureDefinition/PIRADSScore"
+* group[+].source = Canonical(StudyVariables)
+* group[=].target = Canonical(PIRADSScore)
+
 * group[=].element[0].code = #StudyVariables.PIRADS
 * group[=].element[=].display = "PCa family history"
 * group[=].element[=].target.code = #Observation.valueInteger
