@@ -3,22 +3,22 @@ Alias: $m49.htm = http://unstats.un.org/unsd/methods/m49/m49.htm
 Instance: StudyVariables2FHIR
 InstanceOf: ConceptMap
 Usage: #definition
-* url = "http://hl7.eu/fhir/ig/flute/ConceptMap/cancerEpisode2FHIR"
-* version = "0.1.0"
+/* * url = "http://hl7.eu/fhir/ig/flute/ConceptMap/cancerEpisode2FHIR"
+* version = "0.1.0" */
 * name = "StudyVariables2FHIR"
 * title = "Study variables Model to this guide Map"
 * status = #draft
 * experimental = true
 * date = "2023-12-06T12:26:32+00:00"
-* publisher = "Flute Project"
+/* * publisher = "Flute Project"
 * contact[0].name = "Flute Project"
 * contact[=].telecom.system = #url
 * contact[=].telecom.value = "https://www.flute.eu/"
 * contact[+].name = "Flute Project"
 * contact[=].telecom.system = #url
-* contact[=].telecom.value = "https://www.flute.eu/"
+* contact[=].telecom.value = "https://www.flute.eu/" */
 * description = "Study variables Model to this guide Map"
-* jurisdiction = $m49.htm#150 "Europe"
+/* * jurisdiction = $m49.htm#150 "Europe" */
 * purpose = "It shows how the Study variables model is mapped into this guide"
 * sourceUri = "http://hl7.eu/fhir/ig/flute/StructureDefinition/StudyVariables"
 * targetUri = "http://hl7.org/fhir/r4"
