@@ -69,7 +69,7 @@ Usage: #example
 
 * item[+].linkId = "observation-psa-group"
 * item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-ProstateSpecificAntigen#Observation"
-* item[=].text = "Observation group"
+* item[=].text = "Observation PSA group"
 * item[=].item[+].linkId = "psa"
 * item[=].item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-ProstateSpecificAntigen#Observation.value"
 * item[=].item[=].text = "Measure of prostate-specific antigen reported in ng/ml"
@@ -121,7 +121,7 @@ Usage: #example
 
 * item[+].linkId = "observation-prostate-volume-group"
 * item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-ProstateVolume#Observation"
-* item[=].text = "Observation group"
+* item[=].text = "Observation Prostate Volume group"
 * item[=].item[+].linkId = "prostate-volume"
 * item[=].item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-ProstateVolume#Observation.value"
 * item[=].item[=].text = "Prostate volume in cc"
@@ -151,11 +151,11 @@ Usage: #example
 
 * item[+].linkId = "observation-pirads-group"
 * item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-PIRADSScore#Observation"
-* item[=].text = "Observation group"
+* item[=].text = "Observation PI-RADS group"
 * item[=].item[+].linkId = "pirads"
 * item[=].item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-PIRADSScore#Observation.value"
 * item[=].item[=].text = "PI-RADS score"
-* item[=].item[=].answer.valueInteger = 3
+* item[=].item[=].answer.valueCoding = $pi-rads#3 "Intermediate (the presence of clinically significant cancer is equivocal)"
 
 * item[=].item[+].linkId = "pirads-code"
 * item[=].item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-PIRADSScore#Observation.code.coding"
