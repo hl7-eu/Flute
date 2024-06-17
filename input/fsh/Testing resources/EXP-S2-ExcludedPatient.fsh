@@ -70,7 +70,7 @@ InstanceOf: PR-ProstateSpecificAntigen
 Description: "Exemple d'observation pour la perception de la santé dans le scénario 1"
 Usage: #inline
 * status = #final
-* code = $loinc#2857-1 "Prostate specific Ag"
+* code = $loinc#2857-1 "Prostate specific Ag [Mass/volume] in Serum or Plasma"
 * subject = Reference(urn:uuid:b5d7888a-21fe-44bd-b988-a63f34555d2a)
 * valueQuantity = 1 'ng/mL'
 * effectiveDateTime = "2024-06-03"
@@ -80,7 +80,7 @@ InstanceOf: PR-DigitalRectalExamination
 Description: "Exemple de procedure biopsy pour le scénario 1"
 Usage: #inline
 * status = #completed
-* code = $sct#410006001 "digital rectal examination"
+* code = $sct#410006001 "DRE - Digital rectal examination"
 * subject = Reference(urn:uuid:b5d7888a-21fe-44bd-b988-a63f34555d2a)
 * performedAge = 54 'a'
 * bodySite = $sct#41216001 "Prostatic structure (body structure)"

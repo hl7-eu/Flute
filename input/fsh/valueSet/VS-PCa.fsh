@@ -2,6 +2,8 @@ ValueSet: VS_PCa
 Id: VS-PCa
 Title: "Malignant tumor of prostate Value Set"
 Description: "Malignant tumor of prostate."
+
+* insert SNOMEDCopyrightForVS
 * $sct#1098981000119101 "Recurrent malignant neoplasm of prostate"
 * $sct#1264500002 "Metastatic infiltrating duct carcinoma to prostate"
 * $sct#1259710009 "Primary small cell neuroendocrine carcinoma of prostate"

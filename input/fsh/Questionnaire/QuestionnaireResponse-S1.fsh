@@ -82,7 +82,7 @@ Usage: #example
 * item[=].item[=].text = "PSA code"
 * item[=].item[=].answer.valueCoding.system = $loinc
 * item[=].item[=].answer.valueCoding.code = #2857-1
-* item[=].item[=].answer.valueCoding.display = "Prostate specific Ag"
+* item[=].item[=].answer.valueCoding.display = "Prostate specific Ag [Mass/volume] in Serum or Plasma"
 
 * item[=].item[+].linkId = "psa-status"
 * item[=].item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-ProstateSpecificAntigen#Observation.status"
@@ -104,7 +104,7 @@ Usage: #example
 * item[=].item[=].text = "DRE code"
 * item[=].item[=].answer.valueCoding.system = $sct
 * item[=].item[=].answer.valueCoding.code = #410006001
-* item[=].item[=].answer.valueCoding.display = "digital rectal examination"
+* item[=].item[=].answer.valueCoding.display = "DRE - Digital rectal examination"
 
 * item[=].item[+].linkId = "dre-status"
 * item[=].item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-DigitalRectalExamination#Procedure.status"

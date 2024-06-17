@@ -121,7 +121,7 @@ Usage: #definition
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = true
-* item[=].item[=].initial.valueCoding = $loinc#2857-1 "Prostate specific Ag"
+* item[=].item[=].initial.valueCoding = $loinc#2857-1 "Prostate specific Ag [Mass/volume] in Serum or Plasma"
 
 * item[=].item[+].linkId = "psa-status"
 * item[=].item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-ProstateSpecificAntigen#Observation.status"
@@ -156,7 +156,7 @@ Usage: #definition
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = true
-* item[=].item[=].initial.valueCoding = $sct#410006001 "digital rectal examination"
+* item[=].item[=].initial.valueCoding = $sct#410006001 "DRE - Digital rectal examination"
 
 * item[=].item[+].linkId = "dre-status"
 * item[=].item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-DigitalRectalExamination#Procedure.status"

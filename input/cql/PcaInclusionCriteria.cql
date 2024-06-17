@@ -8,7 +8,7 @@ codesystem "LOINC": 'http://loinc.org'
 
 codesystem "SNOMED": 'http://snomed.info/sct'
 
-code "psa": '2857-1' from "LOINC" display 'Prostate specific Ag'
+code "psa": '2857-1' from "LOINC" display 'Prostate specific Ag [Mass/volume] in Serum or Plasma'
 code "dre": '410006001' from "SNOMED" display 'Digital examination of rectum'
 code "susceptible": '131196009' from "SNOMED" display 'susceptible'
 

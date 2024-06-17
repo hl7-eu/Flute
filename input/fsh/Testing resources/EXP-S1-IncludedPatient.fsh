@@ -74,7 +74,7 @@ Instance: EXP-S1-Observation-PSA
 InstanceOf: PR-ProstateSpecificAntigen
 Usage: #inline
 * status = #final
-* code = $loinc#2857-1 "Prostate specific Ag"
+* code = $loinc#2857-1 "Prostate specific Ag [Mass/volume] in Serum or Plasma"
 * subject = Reference(urn:uuid:8a80b7e2-1879-418e-92eb-3641846b599c)
 * valueQuantity = 5 'ng/mL'
 * effectiveDateTime = "2024-06-03"
@@ -84,7 +84,7 @@ Instance: EXP-S1-Procedure-DRE
 InstanceOf: PR-DigitalRectalExamination
 Usage: #inline
 * status = #completed
-* code = $sct#410006001 "digital rectal examination"
+* code = $sct#410006001 "DRE - Digital rectal examination"
 * subject = Reference(urn:uuid:8a80b7e2-1879-418e-92eb-3641846b599c)
 * performedAge = 54 'a'
 * outcome = $sct#131196009 "susceptible"
