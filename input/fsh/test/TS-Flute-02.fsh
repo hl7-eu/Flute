@@ -5,7 +5,7 @@ Alias: $restful-interaction = http://hl7.org/fhir/restful-interaction
 Instance: TS-Flute-02
 InstanceOf: TestScript
 Usage: #definition
-* url = "https://flute.com/TestScript/TS-Flute-02"
+* url = "http://hl7.eu/fhir/ig/flute/TestScript/TS-Flute-02"
 * version = "1.0.0"
 * name = "PcaInclusionCriteriaS02"
 * title = "Study Inclusion Criteria - Scenario 02"

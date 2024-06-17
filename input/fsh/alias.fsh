@@ -1,0 +1,1 @@
+Alias: $pi-rads = http://acr.org/pi-rads // INVENTED TO BE fixed

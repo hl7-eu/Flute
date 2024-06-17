@@ -16,7 +16,7 @@ code "volumeOfProstate": '1297142007' from "SNOMED" display 'Volume of prostate'
 code "mri": '719178004' from "SNOMED" display 'Multiparametric magnetic resonance imaging of prostate'
 code "repeated": '27582007' from "SNOMED" display 'Repeated'
 
-valueset "pca": 'https://flute.com/ValueSet/VS-PCa'
+valueset "pca": 'http://hl7.eu/fhir/ig/flute/ValueSet/VS-PCa'
 
 context Patient
 

@@ -1,5 +1,5 @@
 Logical: StudyVariables
-Id: StudyVariables
+Id: studyVariables
 Title: "Prostate Cancer study Variables"
 Description: "Study variables for a study on prostate cancer."
 * patient 1..1 Reference(Patient) "Patient"
