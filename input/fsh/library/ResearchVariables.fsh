@@ -4,7 +4,7 @@ Instance: ResearchVariables
 InstanceOf: Library
 Description: "Retrieves key research variables for prostate cancer studies."
 Usage: #definition
-// * url =  "http://hl7.eu/fhir/ig/flute/Library/ResearchVariables"
+// // * url =  "http://hl7.eu/fhir/ig/flute/Library/ResearchVariables"
 // * version = "1.0.0"
 * name = "ResearchVariables"
 * title = "Prostate Cancer Research Variables"

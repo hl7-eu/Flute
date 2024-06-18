@@ -5,7 +5,7 @@ Alias: $restful-interaction = http://hl7.org/fhir/restful-interaction
 Instance: TS-Flute-03
 InstanceOf: TestScript
 Usage: #definition
-* url = "http://hl7.eu/fhir/ig/flute/TestScript/TS-Flute-03"
+// * url = "http://hl7.eu/fhir/ig/flute/TestScript/TS-Flute-03"
 * description = "This TestScript is designed to validate the populate of a questionnaire"
 * contact.telecom.system = #url
 * contact.telecom.value = "http://hl7.eu/fhir/ig/flute"

@@ -1,8 +1,10 @@
 Instance: InclusionCriterias2FHIR
 InstanceOf: ConceptMap
 Usage: #definition
-* url = "http://hl7.eu/fhir/ig/flute/ConceptMap/InclusionCriterias"
+
+/* // * url = "http://hl7.eu/fhir/ig/flute/ConceptMap/InclusionCriterias"
 * version = "0.1.0"
+ */
 * name = "InclusionCriterias2FHIR"
 * title = "Concept Map for Inclusion Criteria to FHIR"
 * status = #draft

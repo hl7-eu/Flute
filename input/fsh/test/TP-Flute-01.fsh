@@ -4,7 +4,7 @@ Alias: $test-script-languages = http://example.com/test-script-languages
 Instance: TP-Flute-01
 InstanceOf: TestPlan
 Usage: #definition
-* url = "http://hl7.eu/fhir/ig/flute/TestPlan/TP-Flute-01"
+// * url = "http://hl7.eu/fhir/ig/flute/TestPlan/TP-Flute-01"
 * title = "TestPlan for the populate of a questionnaire and extract of a questionnaireResponse"
 * description = "TestPlan for the populate of a questionnaire and extract of a questionnaireResponse for the study variable"
 * contact.telecom.system = #url

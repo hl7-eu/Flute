@@ -6,8 +6,8 @@ InstanceOf: QuestionnaireResponse
 Description: "The Questionnaire response for the Patient included S1."
 Usage: #example
 //* contained = Questionnaire-StudyVariable
-* extension.url = "http://hl7.org/fhir/us/davinci-dtr/StructureDefinition/dtr-questionnaireresponse-questionnaire"
-* extension.valueReference = Reference(Questionnaire-StudyVariable)
+/* * extension.url = "http://hl7.org/fhir/us/davinci-dtr/StructureDefinition/dtr-questionnaireresponse-questionnaire"
+* extension.valueReference = Reference(Questionnaire-StudyVariable) */
 * questionnaire = Canonical(Questionnaire-StudyVariable)
 * status = #in-progress
 * subject = Reference(urn:uuid:b5d7888a-21fe-44bd-b988-a63f34555d2a)
@@ -64,7 +64,7 @@ Usage: #example
 * item[=].item[+].linkId = "family-relationship"
 * item[=].item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-ProstateCancerFamilyHistory#FamilyMemberHistory.relationship.coding"
 * item[=].item[=].text = "Family relationship"
-* item[=].item[=].answer.valueCoding.system = "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+* item[=].item[=].answer.valueCoding.system = "$v3-RoleCode"
 * item[=].item[=].answer.valueCoding.code = #FTH
 
 * item[+].linkId = "observation-psa-group"

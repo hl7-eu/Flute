@@ -4,7 +4,7 @@ Alias: $m49.htm = http://unstats.un.org/unsd/methods/m49/m49.htm
 Instance: Questionnaire-StudyVariable
 InstanceOf: sdc-questionnaire-extr-defn
 Usage: #definition
-// * url = "http://hl7.eu/fhir/ig/flute/fhir/Questionnaire/Questionnaire-StudyVariable"
+// // * url = "http://hl7.eu/fhir/ig/flute/fhir/Questionnaire/Questionnaire-StudyVariable"
 * version = "1.0.0"
 * name = "StudyVariableExtraction"
 * title = "Study variable Extraction"
@@ -98,7 +98,7 @@ Usage: #definition
 * item[=].item[=].repeats = false
 // * item[=].item[=].code = $sct#399068003
 * item[=].item[=].readOnly = true
-* item[=].item[=].initial.valueCoding = http://terminology.hl7.org/CodeSystem/v3-RoleCode#FAMMEMB
+* item[=].item[=].initial.valueCoding = $v3-RoleCode#FAMMEMB
 
 * item[+].linkId = "observation-psa-group"
 * item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-ProstateSpecificAntigen#Observation"

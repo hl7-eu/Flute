@@ -1,8 +1,3 @@
-Alias: $loinc = http://loinc.org
-Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
-Alias: $administrative-gender = http://hl7.org/fhir/administrative-gender
-Alias: $sct = http://snomed.info/sct
-
 Instance: EXP-S1-IncludedPatient
 InstanceOf: Bundle
 Description: "This bundle includes all the resources for a patient who has been included in the study."
