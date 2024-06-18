@@ -225,7 +225,7 @@ Usage: #definition
 * item[=].required = false
 
 * item[=].item[+].linkId = "pirads"
-* item[=].item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-PIRADSScore#Observation.value"
+* item[=].item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-PIRADSScore#Observation.valueCodeableConcept.coding"
 * item[=].item[=].text = "PI-RADS score"
 * item[=].item[=].type = #choice
 * item[=].item[=].required = true
