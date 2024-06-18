@@ -158,8 +158,8 @@ groups:
     name: Flute Project Prostate Cancer Models
     description: Logical models representing the prostate cancer study variables
     resources:
-      - StructureDefinition/studyVariables
-      - StructureDefinition/inclusionCriterias
+      - StructureDefinition/StudyVariables
+      - StructureDefinition/InclusionCriterias
 
   LogicalModelMapping:
     name: Flute Project Prostate Cancer study variables Model Mappings

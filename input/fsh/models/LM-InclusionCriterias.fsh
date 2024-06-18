@@ -1,5 +1,5 @@
 Logical: InclusionCriterias
-Id: inclusionCriterias
+Id: InclusionCriterias
 Title: "Inclusion Criteria for Prostate Cancer Cohorts"
 Description: "Criteria for including men in cohorts based on clinical suspicion of prostate cancer."
 * psa 0..1 Quantity "Level of prostate-specific antigen. The measurement of PSA levels in the blood, typically reported in ng/ml."
