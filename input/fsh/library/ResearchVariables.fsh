@@ -1,5 +1,3 @@
-Alias: $library-type = http://terminology.hl7.org/CodeSystem/library-type
-
 Instance: ResearchVariables
 InstanceOf: Library
 Description: "Retrieves key research variables for prostate cancer studies."

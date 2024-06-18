@@ -11,6 +11,6 @@ Description: "Observation for measuring the volume of the prostate."
 * valueQuantity.value 1..1 
 * valueQuantity.value obeys rule-1
 * valueQuantity.unit = "cc"
-* valueQuantity.system = "http://unitsofmeasure.org"
+* valueQuantity.system = $ucum
 * valueQuantity.code = #cm3
 

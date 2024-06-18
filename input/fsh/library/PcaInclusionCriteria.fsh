@@ -1,5 +1,3 @@
-Alias: $library-type = http://terminology.hl7.org/CodeSystem/library-type
-
 Instance: PcaInclusionCriteria
 InstanceOf: Library
 Description: "Defines criteria for including patients in prostate cancer cohorts."

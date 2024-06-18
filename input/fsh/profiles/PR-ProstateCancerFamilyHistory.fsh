@@ -1,5 +1,3 @@
-Alias: $sct = http://snomed.info/sct
-
 Profile: PR_ProstateCancerFamilyHistory
 Parent: FamilyMemberHistory
 Id: PR-ProstateCancerFamilyHistory

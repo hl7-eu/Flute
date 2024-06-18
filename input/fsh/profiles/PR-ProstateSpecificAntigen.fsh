@@ -11,5 +11,5 @@ Description: "Observation for the measurement of prostate specific antigen (PSA)
 * valueQuantity.value 1..1 
 * valueQuantity.value obeys rule-1
 * valueQuantity.unit = "ng/mL"
-* valueQuantity.system = "http://unitsofmeasure.org"
+* valueQuantity.system = $ucum
 * valueQuantity.code = #ng/mL

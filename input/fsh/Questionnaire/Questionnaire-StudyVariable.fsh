@@ -1,6 +1,3 @@
-Alias: $launchContext = http://hl7.org/fhir/uv/sdc/CodeSystem/launchContext
-Alias: $m49.htm = http://unstats.un.org/unsd/methods/m49/m49.htm
-
 Instance: Questionnaire-StudyVariable
 InstanceOf: sdc-questionnaire-extr-defn
 Usage: #definition
@@ -13,7 +10,7 @@ Usage: #definition
 * subjectType = #Patient
 * date = "2024-03-26"
 * description = "Study variable extractable questionnaire"
-* jurisdiction = $m49.htm#001 "World"
+/* * jurisdiction = $m49.htm#001 "World" */
 
 * item[+].linkId = "procedure-group"
 * item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-Biopsy#Procedure"
@@ -37,7 +34,7 @@ Usage: #definition
 * item[=].item[=].readOnly = true
 * item[=].item[=].code = $sct#86273004
 * item[=].item[=].readOnly = true
-* item[=].item[=].initial.valueCoding = http://hl7.org/fhir/event-status#completed
+* item[=].item[=].initial.valueCoding = $event-status#completed
 
 * item[=].item[+].linkId = "age-at-biopsy"
 * item[=].item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-Biopsy#Procedure.performed"
@@ -166,7 +163,7 @@ Usage: #definition
 * item[=].item[=].repeats = false
 * item[=].item[=].code = $sct#410006001
 * item[=].item[=].readOnly = true
-* item[=].item[=].initial.valueCoding = http://hl7.org/fhir/event-status#completed
+* item[=].item[=].initial.valueCoding = $event-status#completed
 
 * item[=].item[+].linkId = "dre-bodySite"
 * item[=].item[=].definition = "http://hl7.eu/fhir/ig/flute/StructureDefinition/PR-DigitalRectalExamination#Procedure.bodySite.coding"

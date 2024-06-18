@@ -1,5 +1,3 @@
-Alias: $sct = http://snomed.info/sct
-
 ValueSet: VS_BiopsyType
 Id: VS-BiopsyType
 Title: "Type of Biopsy"
