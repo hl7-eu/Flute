@@ -1,8 +1,6 @@
-
-
 ### The FLUTE project
 
-#### Overview 
+#### Overview
 
 The goal of the FLUTE project is to advance and scale up data-driven healthcare by developing novel methods for privacy-preserving cross-border utilization of data hubs. The project performs advanced research to push the performance envelope of secure multi-party computation in Federated Learning, including the associated AI models and secure execution environments.
 
@@ -16,7 +14,6 @@ To demonstrate the practical use and impact of the results, the project will int
 
 The FLUTE project aims to facilitate the sharing and reuse of health data among clinical centers. This is intended to advance research on rare cancers and improve patient access to high-quality care. A significant challenge is building a tool to overcome interoperability issues while complying with privacy regulations.
 
-
 ### Dependencies
 
 {% include dependency-table.xhtml %}
@@ -28,7 +25,6 @@ The FLUTE project aims to facilitate the sharing and reuse of health data among 
 ### Global Profiles
 
 {% include globals-table.xhtml %}
-
 
 ### Authors and Contributors
 
@@ -44,9 +40,6 @@ The FLUTE project aims to facilitate the sharing and reuse of health data among 
 <tbody>
 <tr class="odd">
 <td>Autore</td>
-<td>Omar Guendouz</td>
-<td>Fyrstain</td>
-<td>omar.guendouz@fyrstain.com</td>
 </tr>
 </tbody>
 </table>
