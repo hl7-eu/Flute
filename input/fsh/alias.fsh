@@ -15,3 +15,7 @@ Alias: $launchContext = http://hl7.org/fhir/uv/sdc/CodeSystem/launchContext
 // Value Sets
 
 Alias: $v3-FamilyMember = http://terminology.hl7.org/ValueSet/v3-FamilyMember
+
+// Extensions
+Alias: $workflow-supportingInfo = http://hl7.org/fhir/StructureDefinition/workflow-supportingInfo
+
